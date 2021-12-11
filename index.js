@@ -2454,8 +2454,7 @@ case 'triggered':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "🔖 *𝙲𝚁𝙴𝙰𝚃𝙴𝚁 -ɢɪɴɢᴇʀʙʀᴇᴀᴅꜱᴋᴇᴛᴄʜʏ* 🔖
- ♥  ʟɪɴᴋ - https://giveit.link/gingerbreadsketchy", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "📣✆𝚂𝚔𝚎𝚝𝚌𝚑𝚢 𝙱𝚘𝚝 ✆📣 By ⦋𝕲𝖎𝖓𝖌𝖊𝖗𝕾𝖐𝖊𝖙𝖈𝖍𝖞⦌", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
